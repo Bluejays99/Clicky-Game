@@ -60,10 +60,10 @@ class App extends Component {
           score={this.state.score}
           topScore={this.state.topScore}
         />
-        <div className="flags-container">
+        <div className="sportlogos-container">
           {this.state.maps.map(item => (
             <Card
-              country={item.country}
+              sportlogos={item.sportlogos}
               id={item.id}
               img={item.img}
               clickedCard={this.clickedCard}

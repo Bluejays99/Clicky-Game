@@ -3,7 +3,7 @@ import "../App.css";
 
 const Card = props => {
     return (
-        <div className="flags-subcontainer">
+        <div className="sportlogos-subcontainer">
             <h3>{props.country}</h3>
             <img
                 alt={props.name}
