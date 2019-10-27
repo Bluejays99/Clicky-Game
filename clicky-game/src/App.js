@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({ maps: this.shuffle(this.state.sportlogos) })
+    this.setState({ sportlogos: this.shuffle(this.state.sportlogos) })
   }
 
   clickedCard = (id) => {
@@ -26,7 +26,7 @@ class App extends Component {
       newClicked.push(id)
       let newscore = this.state.score + 1 > this.state.topScore ? this.state.score + 1 : this.state.topScore
       this.setState({
-        sportlogos: this.shuffle(this.state.sportlogs),
+        sportlogos: this.shuffle(this.state.sportlogos),
         score: this.state.score + 1,
         topScore: newscore,
         message: "Keep going! You're on your way to a new top score!",
@@ -36,7 +36,7 @@ class App extends Component {
     }
     else {
       this.setState({
-        sportslogos: this.shuffle(this.state.sportlogos),
+        sportlogos: this.shuffle(this.state.sportlogos),
         score: 0,
         message: "Oh no! You clicked a Sport logo more than once!",
         clicked: [],
@@ -61,7 +61,7 @@ class App extends Component {
           topScore={this.state.topScore}
         />
         <div className="sportlogos-container">
-          {this.state.sportslogos.map(item => (
+          {this.state.sportlogos.map(item => (
             <Card
               sportlogos={item.sportlogos}
               id={item.id}
