@@ -4,73 +4,65 @@
         "img": "./images/857.gif",
         "team": "Kansas City Chiefs"
     },
+   
     {
         "id": 2,
-        "img": "./images/(1).jpg",
-        "country": "Green Bay Packers"
-    },
-    {
-        "id": 3,
         "img": "./images/15988562013.gif",
         "country": "Jacksonville Jaguars"
     },
     {
-        "id": 4,
+        "id": 3,
         "img": "./images/y71myf8mlwlk8lbgagh3fd5e0.gif",
         "country": "New England Patriots"
     },
     {
-        "id": 5,
+        "id": 4,
         "img": "./images/50.gif",
         "country": "Calgary Flames"
     },
     {
-        "id": 6,
+        "id": 5,
         "img": "./images/124.gif",
         "country": "Montreal Canadiens"
     },
     {
-        "id": 7,
+        "id": 6,
         "img": "./images/1227282018.gif",
         "country": "Edmonton Oilers"
     }, 
     {
-        "id": 8,
+        "id": 7,
         "img": "./images/2887612017.gif",
         "country": "Toronto Maple Leafs"
     }, 
     {
-        "id": 9,
+        "id": 8,
         "img": "./images/dmo1xf3z4pph27vmg3gf.gif",
         "country": "San Jose Sharks"
     }, 
     {
-        "id": 10,
+        "id": 9,
         "img": "./images/2463622017.gif",
         "country": "Pittsburgh Penguins"
     }, 
     {
-        "id": 11,
+        "id": 10,
         "img": "./images/lvchw3qfsun2e7oc02kh2zxb6.gif",
         "country": "Nashville Predators"
     }, 
+    
     {
-        "id": 12,
-        "img": "./images/uig7aiht8jnpl1szbi57zzlsh.gif",
-        "country": "Los Angeles Lakers"
-    }, 
-    {
-        "id": 13,
+        "id": 11,
         "img": "./images/images.jpg",
         "country": "Toronto Blue Jays"
     }, 
     {
-        "id": 14,
+        "id": 12,
         "img": "./images/22582752016.gif",
         "country": "Milwaukee Bucks"
     }, 
     {
-        "id": 15,
+        "id": 13,
         "img": "./images/23296692018.gif",
         "country": "Minnesota Timberwolves"
     } 
